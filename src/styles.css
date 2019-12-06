@@ -1,0 +1,20 @@
+input.ng-touched.ng-invalid{
+    border-color: red;
+}
+div.validation-error{
+    width: 100%;
+    margin-top: .25rem;
+    font-size: 80%;
+    color: red;
+}
+/* ::ng-deep.mat-datepicker-content .mat-calendar{
+    width: unset !important;
+    height: unset !important;
+} */
+
+mat-form-field.mat-datepicker { position: relative; }
+mat-form-field.mat-datepicker .mat-input-underline { position: absolute; bottom: 0; }
+
+.mat-input-underline {
+    height:0; visibility:hidden; pointer-events:none;
+}
